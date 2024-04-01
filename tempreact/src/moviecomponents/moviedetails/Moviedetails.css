@@ -1,0 +1,100 @@
+.movie-detail-main-container{
+    height: 250vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.movie-title-container{
+    border: 0.8px solid cyan;
+    height: 70px;
+    color: white;
+    border-radius: 20px;
+ 
+    
+}
+.movie-heading:hover{
+color: rgb(255, 0, 0);
+text-decoration:dashed;
+cursor: pointer;
+}
+.movie-image-conatainer{
+   border: 1px solid cyan;
+   height: 300px;
+   display: flex;
+
+}
+.movie-image-conatainer img{
+    height: 300px ;
+
+   
+    
+}
+.movie-description{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.comment-container{
+    color:white; position:absolute;
+    right:20px;
+    top:500px;
+    border:2px solid cyan;
+    height:200px;
+    width:350px;
+    padding:10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.comment-previous-add{
+    border: 2px solid cyan;
+                height: 100px;
+                width: 700px;
+                margin: 10px;
+                border-top-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+}
+.list-tag{
+    list-style: none;
+     margin: 10px;
+}
+.add-comment{
+    border: none;
+      border-bottom: 2px solid #ffffff; /* Underline style */
+      padding: 5px;
+      background-color: transparent; /* Transparent background */
+      outline: none;
+      width: 330px;
+      color: white;
+}
+.comment-btn{
+    border: 0.5px solid cyan;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: black;
+    color: cyan;
+    cursor: pointer;
+
+}
+.comment-btn:hover{
+    color: red;
+    border: 0.5px solid red;
+}
+.btn-watch{
+    height: 20px;
+    width: 300px;
+    background-color: black;
+    border: 0.5px solid cyan;
+    color: cyan;
+    border-radius: 30px;
+    margin: 30px;
+}
+.btn-watch:hover{
+    border: 0.5px solid red;
+    color: red;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "backend-projects",
+  "version": "1.0.0",
+  "description": "movie watching system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "yash choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.2",
+    "cloudinary": "^1.41.2",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.2",
+    "razorpay": "^2.9.2",
+    "react-bootstrap": "^2.9.2",
+    "react-router-dom": "^6.21.2",
+    "socket.io": "^4.7.4",
+    "validator": "^13.11.0"
+  }
+}

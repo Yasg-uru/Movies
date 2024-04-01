@@ -1,0 +1,29 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* margin-top: 300px; */
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+border: 2px solid  black;
+color: white;
+}
+
+.container-footer{
+height: 40px;
+/* border: 2px solid red; */
+width: 100vw;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.company{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ptag{
+    margin: 3px;
+}

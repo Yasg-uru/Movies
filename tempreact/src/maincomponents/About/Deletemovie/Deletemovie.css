@@ -1,0 +1,60 @@
+/* .delete-movie-main-container{
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    right: 30px;
+    border: 2px solid red;
+    
+} */
+/* Deletemovie.css */
+
+.delete-movie-main-container {
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    right: 30px;
+    border: 2px solid red;
+    padding: 20px;
+    background-color: #000000; /* Dark background color */
+    border-radius: 10px;
+    color: white;
+}
+
+.delete-movie-main-container form {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid cyan;
+}
+
+.delete-movie-main-container label {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.delete-movie-main-container input {
+    border: none;
+    border-bottom: 2px solid red; /* Underline style */
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    width: 200px; /* Adjust width as needed */
+}
+
+.delete-movie-main-container button {
+    background-color: black;
+    color: cyan;
+    border: 0.5px solid cyan;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 130px;
+    border-radius: 30px;
+}
+
+.delete-movie-main-container button:hover {
+    border: 0.5px solid red; /* Darker red on hover */
+    color: red;
+}

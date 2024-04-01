@@ -1,0 +1,58 @@
+.card-container{
+    border: 2px solid cyan;
+    height: 450px;
+    width: 450px;
+    margin: 0px;
+    border-radius: 20px ;
+    margin-top:10px;
+  
+}
+.movie-image{
+    height: 240px;
+    width: 450px;
+    border-radius: 19px ;
+}
+.movie-details{
+    border: 0.5px solid red;
+    height: 205px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* padding-left: 20px; */
+}
+.detail-content-container{
+    
+    height: 145px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+
+}
+/* .details-button{
+    background-color: cyan;
+   color: rgb(255, 2, 2);
+   margin-top: 30px;
+   border-radius: 20px;
+} */
+.details-button {
+    padding: 8px 12px;
+    background-color: rgb(0, 0, 0);
+    color: cyan;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    width: 350px;
+    margin-left: 20px;
+    border: 0.5px solid cyan;
+   
+}
+  
+  .details-button:hover {
+    border: 0.5px solid red;
+    color: red;
+    
+  }
+  

@@ -1,0 +1,19 @@
+.saved-movies-container{
+    height: 230vh;
+    width: 100vw;
+    background-color: black;
+  
+}
+
+.saved-movies-inner-container{
+    border: 0.5px solid cyan;
+    height: 195vh;
+display: flex;
+justify-content: space-around;
+}
+.saved-movies-container-div{
+    border: 0.5px solid cyan;
+    height: 300px;
+    width: 300px;
+    margin-top: 22px;
+}

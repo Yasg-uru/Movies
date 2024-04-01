@@ -1,0 +1,40 @@
+/* Loader.css */
+.loading-containers {
+    perspective: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .loaders {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 2s linear infinite;
+  }
+  
+  .loaders .lface {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    opacity: 0.8;
+    border-radius: 8px;
+    box-shadow: 0 0 15px red;
+  }
+  
+  .loaders .lface:nth-child(1) { transform: rotateX(90deg) translateZ(20px); }
+  .loaders .lface:nth-child(2) { transform: rotateY(90deg) translateZ(20px); }
+  .loaders .lface:nth-child(3) { transform: rotateY(-90deg) translateZ(20px); }
+  .loaders .lface:nth-child(4) { transform: rotateX(-90deg) translateZ(20px); }
+  .loaders .lface:nth-child(5) { transform: rotateY(180deg) translateZ(20px); }
+  .loaders .lface:nth-child(6) { transform: translateZ(-20px); }
+  
+  @keyframes spin {
+    0%   { transform: rotateX(0) rotateY(0); }
+    100% { transform: rotateX(360deg) rotateY(360deg); }
+  }
+  

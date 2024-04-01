@@ -1,0 +1,377 @@
+
+.livewatchcontainer-main{
+    display: flex;
+    background-color: black;
+}
+.live-watch-main-container{
+    border: 0.5px solid cyan;
+    height: 110vh;
+    width: 400px;
+    margin-right: 5px;
+
+
+}
+
+.live-watch-input-container{
+ border: 0.5px solid cyan;
+ border-radius: 10px;
+ position: relative;
+top: 40px;
+ height: 80px;
+ width: 300px;
+ margin: auto auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+.live-watch-input-container input{
+    border: none;
+      border-bottom: 2px solid cyan; 
+      outline: none;
+      padding-bottom: 5px; 
+      width: 200px; 
+      background-color: black;
+      width: 260px;
+      color: cyan;
+}
+.live-watch-input-container button{
+    height: 20px;
+   width: 260px;
+   border: 0.5px solid cyan;
+   background-color: black;
+   color: cyan;
+   border-radius: 10px;
+   margin-top: 5px;
+}
+.live-watch-input-container button:hover{
+    border: 0.5px solid red;
+    color: red;
+}
+.chat-box-live-display-container{
+    border: 0.5px solid cyan;
+    height: 300px;
+   
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    overflow-y: auto;
+}
+.chat-label{
+    border: 0.5px solid cyan;
+    
+   
+   
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+   
+
+    
+}
+.chat-label input{
+    border: none;
+      border-bottom: 2px solid cyan; 
+      outline: none;
+      padding-bottom: 5px; 
+      width: 200px; 
+      background-color: black;
+      width: 260px;
+      color: cyan;
+}
+.chat-label button{
+   height: 20px;
+   width: 260px;
+   border: 0.5px solid cyan;
+   background-color: black;
+   color: cyan;
+   border-radius: 10px;
+}
+.chat-label button:hover{
+    border: 0.5px solid red;
+    color: red;
+}
+.nameinput{
+    border: none;
+    border-bottom: 0.5px solid cyan; 
+    outline: none;
+    padding-bottom: 5px;
+    width: 100px; 
+    background-color: black;
+    width: 260px;
+    color: cyan;
+}
+
+
+.feature-container{
+    color:white;
+    border:0.5px solid cyan;
+    position:absolute;
+    left:20px;
+    top:450px;
+    height: 170px;
+    width: 600px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.rating-component{
+   
+    width: 400px;
+    margin: auto;
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: center;
+}
+.rating-component button{
+    border:0.5px solid cyan;
+    background-color: black;
+    color: cyan;
+    width: 100px;
+    border-radius: 30px;
+}
+.rating-component button:hover{
+    color: red;
+    border: 0.5px solid red;
+}
+
+  .inputs{
+    border: none;
+      border-bottom: 2px solid cyan; 
+      outline: none;
+      padding-bottom: 5px; 
+      width: 200px; 
+      background-color: black;
+      width: 260px;
+      color: cyan;
+  }       
+
+  .btns{
+    border:0.5px solid cyan;
+    background-color: black;
+    color: cyan;
+    width: 100px;
+    border-radius: 30px;
+  }
+
+
+/* 
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.livewatchcontainer-main {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+
+.live-watch-main-container {
+    border: 0.5px solid cyan;
+    height: 100vh;
+    width: 60vw;
+    max-width: 100%;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+
+.feature-container {
+    color: white;
+    border: 0.5px solid cyan;
+    margin: 5vh auto;
+    padding: 1vh;
+    height: 30vh;
+    width: 80vw;
+    max-width: 100%;
+    border-radius: 1vh;
+}
+
+.inputs,
+.btns {
+    border: none;
+    border-bottom: 2px solid cyan;
+    outline: none;
+    padding-bottom: 2vh;
+    width: 60vw;
+    max-width: 100%;
+    background-color: black;
+    color: cyan;
+    margin: 1vh auto;
+}
+
+
+.rating-component {
+    width: 70vw;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating-component button {
+    border: 0.5px solid cyan;
+    background-color: black;
+    color: cyan;
+    width: 20vw;
+    max-width: 100%;
+    border-radius: 2vh;
+}
+
+.rating-component button:hover {
+    color: red;
+    border: 0.5px solid red;
+}
+
+
+.live-watch-main-container h3 {
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.chat-label {
+    border: 0.5px solid cyan;
+    height: 10vh;
+    width: 70vw;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 5vh;
+    border-bottom-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+}
+
+.chat-label input {
+    border: none;
+    border-bottom: 2px solid cyan;
+    outline: none;
+    padding-bottom: 2vh;
+    width: 60vw;
+    max-width: 100%;
+    background-color: black;
+    color: cyan;
+    margin: 1vh auto;
+}
+
+.chat-label button {
+    height: 5vh;
+    width: 60vw;
+    max-width: 100%;
+    border: 0.5px solid cyan;
+    background-color: black;
+    color: cyan;
+    border-radius: 2vh;
+    margin: 1vh auto;
+}
+
+.chat-label button:hover {
+    border: 0.5px solid red;
+    color: red;
+}
+
+.chat-box-live-display-container {
+    border: 0.5px solid cyan;
+    height: 40vh;
+    border-bottom-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    overflow-y: auto;
+}
+
+.chat-box-live-display-container div {
+    border: 1px solid cyan;
+    height: 40px;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nameinput {
+    border: none;
+    border-bottom: 0.5px solid cyan;
+    outline: none;
+    padding-bottom: 2vh;
+    width: 30vw;
+    max-width: 100%;
+    background-color: black;
+    color: cyan;
+    margin: 1vh auto;
+}
+
+
+.live-watch-input-container {
+    border: 0.5px solid cyan;
+    border-radius: 1vh;
+    margin: 5vh auto;
+    height: 20vh;
+    width: 70vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-watch-input-container input {
+    border: none;
+    border-bottom: 2px solid cyan;
+    outline: none;
+    padding-bottom: 2vh;
+    width: 60vw;
+    max-width: 100%;
+    background-color: black;
+    color: cyan;
+    margin: 1vh auto;
+}
+
+.live-watch-input-container button {
+    height: 5vh;
+    width: 60vw;
+    max-width: 100%;
+    border: 0.5px solid cyan;
+    background-color: black;
+    color: cyan;
+    border-radius: 2vh;
+    margin-top: 2vh;
+}
+
+.live-watch-input-container button:hover {
+    border: 0.5px solid red;
+    color: red;
+}
+
+
+
+@media (max-width: 768px) {
+    .live-watch-main-container {
+        width: 90vw;
+    }
+
+    .live-watch-input-container,
+    .chat-label,
+    .nameinput,
+    .feature-container,
+    .rating-component {
+        width: 90vw;
+    }
+} */

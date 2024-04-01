@@ -1,0 +1,85 @@
+.home-main-container{
+    height: 300vh;
+    width: 100vw;
+    background-image: url('D:\fullstackwebdevcourse\movie watching system\backend projects\tempreact\public\movie.jpg');
+    
+    /* Set background size and properties if needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.home-second-container{
+    height: 250px;
+    width: 600px;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 30px;
+    top: 120px;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-radius: 40px;
+}
+.heading-1{
+
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    color: white;
+    margin-top: 6px;
+}
+
+
+
+.home-third-container{
+    height: 200px;
+    width: 500px;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 500px;
+    left: 20px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-radius: 30px;
+    padding: 40px;
+
+
+}
+.heading-2{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.home-fourth-container{
+    height: 180px;
+    width: 500px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    background: rgba(255,255,255,.2);
+    border-radius: 30px;
+    padding: 40px;
+    position: absolute;
+    right: 20px;
+    top: 870px;
+
+}
+.home-fifth-container{
+    position: absolute;
+    top: 1150px;
+    left: 20px;
+height: 180px;
+width: 500px;
+
+}
+.home-sixth-container{
+    position: absolute;
+    top: 1450px;
+    right: 20px;
+height: 180px;
+width: 500px;
+}

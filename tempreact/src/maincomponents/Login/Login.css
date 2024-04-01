@@ -1,0 +1,107 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.inner-container {
+    height: 75vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid whitesmoke;
+    background-color: rgb(1, 255, 255);
+    box-shadow: rgb(3, 239, 251) 0px 54px 55px, rgba(0, 255, 234, 0.986) 0px -12px 30px, rgb(2, 234, 255) 0px 4px 6px, rgb(3, 254, 254) 0px 12px 13px, rgb(0, 255, 238) 0px -3px 5px;
+    border-radius: 40px;
+}
+
+form {
+    height: 60vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+label {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-login {
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black; /* Add an underline */
+    outline: none;
+    background-color: rgb(1, 255, 255); /* Make background transparent */
+    border-radius: 0; /* Remove border-radius if any */
+}
+
+
+.btn {
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(11, 241, 73);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    border: none; /* Remove button border */
+}
+
+.btn:hover {
+    background-color: black;
+    color: cyan;
+}
+
+@media (max-width: 600px) {
+    .inner-container {
+        width: 80vw;
+    }
+
+    form {
+        width: 90vw;
+    }
+}
+.third-container{
+    display: flex;
+    
+
+}
+ .links{
+    text-decoration: none;
+    color: rgb(240, 12, 12);
+    margin: 5px;
+}
+.success{
+    color: rgb(17, 255, 17);
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
